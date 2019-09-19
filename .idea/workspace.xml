@@ -79,7 +79,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/dashboard_view/templates/review.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-15">
+            <state relative-caret-position="139">
               <caret line="44" column="38" selection-start-line="44" selection-start-column="38" selection-end-line="44" selection-end-column="38" />
             </state>
           </provider>
@@ -294,17 +294,17 @@
       <workItem from="1568774490925" duration="21614000" />
       <workItem from="1568798490626" duration="22786000" />
       <workItem from="1568860310098" duration="1038000" />
-      <workItem from="1568861695105" duration="3119000" />
+      <workItem from="1568861695105" duration="3916000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54664000" />
+    <option name="totallyTimeSpent" value="55461000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="53" y="25" width="1313" height="743" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49610388" visible="true" weight="0.25887924" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49610388" visible="true" weight="0.25887924" />
       <window_info id="Structure" order="1" sideWeight="0.5038961" side_tool="true" weight="0.25098658" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -319,7 +319,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="11" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="12" visible="true" weight="0.2882736" />
+      <window_info anchor="bottom" id="Terminal" order="12" visible="true" weight="0.28664497" />
       <window_info anchor="bottom" id="Python Console" order="13" weight="0.37662336" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -447,7 +447,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dashboard_view/templates/review.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-15">
+        <state relative-caret-position="139">
           <caret line="44" column="38" selection-start-line="44" selection-start-column="38" selection-end-line="44" selection-end-column="38" />
         </state>
       </provider>
