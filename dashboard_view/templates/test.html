@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Highchart visualization</title>
+</head>
+<body>
+<div id="container" style="width: 95%;height: 70%"></div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="http://code.highcharts.com/highcharts.js"></script>
+<script src="http://code.highcharts.com/modules/exporting.js"></script>
+<script src="https://code.highcharts.com/highcharts.src.js"></script>
+<script>
+    Highcharts.chart('container', {
+        chart: {
+            type: 'column'
+        },
+        title: {
+            text: 'IPhone Ratings'
+        },
+        xAxis: {
+            categories: ['IphoneX', 'Iphone8', 'Iphone7', 'Iphone6'],
+            width: '100%',
+            resize: {
+                enable: true
+            }
+        },
+        yAxis: {
+            title:{
+                text:'ratings'
+            },
+            type: 'linear',
+            tickInterval: 0.5
+        },
+        series: [{
+            name: 'Apple iPhone X',
+            data: [{{ iphonex_rating }}]
+        }, {
+            name: 'Apple iPhone 8',
+            data: [{{ iphone8_ratings }}]
+        }, {
+            name: 'Apple Iphone 7',
+            data: [{{ iphone7_ratings }}]
+        }, {
+            name: 'Apple Iphone 6',
+            data: [{{ iphone6_ratings }}]
+        }]
+    });
+</script>
+<script>
+
+    Highcharts.chart('container', {
+        chart: {
+            type: 'column'
+        },
+        title: {
+            text: 'IPhone Ratings'
+        },
+        xAxis: {
+            categories: ['Iphone X', 'Iphone 8', 'Iphone 7', 'Iphone 6'],
+            width: '100%',
+            resize: {
+                enable: true
+            }
+        },
+        yAxis: {
+            type: 'linear',
+            tickInterval: 0.5
+        },
+        series: [{
+            name: 'Apple iPhone X series',
+            data: [['Apple iPhone X series', {{ iphonex_rating }}],
+                ['Apple iPhone 8 series', {{ iphone8_ratings }}],
+                ['Apple iPhone 7 series', {{ iphone7_ratings }}],
+                ['Apple iPhone 6 series', {{ iphone6_ratings }}]]
+        }]
+    });
+</script>
+</body>
+</html>
+
+
+
+

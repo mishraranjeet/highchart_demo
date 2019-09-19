@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Highchart visualization</title>
+</head>
+
+<body>
+<div id="container" style="width: 750px;height: 400px;margin: 0 auto"></div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="http://code.highcharts.com/highcharts.js"></script>
+<script src="http://code.highcharts.com/modules/exporting.js"></script>
+<script src="https://code.highcharts.com/highcharts.src.js"></script>
+<script>
+    Highcharts.chart('container', {
+        chart: {
+            style: {
+                fontSize: 25,
+                fontWeight: 'bold',
+                backgroundColor:'pink'
+            },
+            type: 'column'
+        },
+        title: {
+            text: 'Apple iPhone Ratings'
+        },
+        xAxis: {
+            categories: ['Iphone X', 'Iphone 8', 'Iphone 7', 'Iphone 6'],
+            width: '100%',
+            labels: {
+                style:{
+                    color:'red',
+                    fontSize: 15
+                }
+            }
+        },
+        yAxis: {
+            title: {
+                text: 'Ratings'
+            },
+            type: 'linear',
+            tickInterval: 100,
+        },
+        series: [{
+            name:'Apple Iphone Ratings',
+            data: [{
+                name: 'Apple iPhone X series',
+                y:{{ iphonex_review }},
+                color: 'red'
+            }, {
+                name: 'Apple iPhone 8 series',
+                y:{{ iphone8_ratings }},
+                color: 'blue'
+            }, {
+                name: 'Apple iPhone 7 series',
+                y:{{ iphone7_ratings }},
+                color: 'yellow'
+            }, {
+                name: 'Apple iPhone 6 series',
+                y:{{ iphone6_ratings }},
+                color: 'green'
+            }]
+        }]
+    });
+</script>
+</body>
+</html>
