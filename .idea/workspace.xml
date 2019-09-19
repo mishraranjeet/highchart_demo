@@ -30,7 +30,7 @@
         <entry file="file://$PROJECT_DIR$/dashboard_view/views.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -51,7 +51,7 @@
         <entry file="file://$PROJECT_DIR$/dashboard_view/templates/test.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
-              <caret line="7" column="57" lean-forward="true" selection-start-line="7" selection-start-column="57" selection-end-line="7" selection-end-column="57" />
+              <caret line="7" column="57" selection-start-line="7" selection-start-column="57" selection-end-line="7" selection-end-column="57" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -63,7 +63,7 @@
         <entry file="file://$PROJECT_DIR$/dashboard_view/templates/home.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="261">
-              <caret line="42" column="26" lean-forward="true" selection-start-line="42" selection-start-column="26" selection-end-line="42" selection-end-column="26" />
+              <caret line="42" column="26" selection-start-line="42" selection-start-column="26" selection-end-line="42" selection-end-column="26" />
               <folding>
                 <element signature="n#style#0;n#h1#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -89,7 +89,7 @@
         <entry file="file://$PROJECT_DIR$/highchart_visual/urls.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
-              <caret line="14" column="3" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+              <caret line="14" column="3" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
               <folding>
                 <element signature="e#640#672#0" expanded="true" />
               </folding>
@@ -111,6 +111,9 @@
     <dirStrings>
       <dir>$PROJECT_DIR$/dashboard_view/templates</dir>
     </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -138,6 +141,7 @@
     <option name="width" value="658" />
     <option name="height" value="667" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -290,15 +294,15 @@
       <workItem from="1568774490925" duration="21614000" />
       <workItem from="1568798490626" duration="22786000" />
       <workItem from="1568860310098" duration="1038000" />
-      <workItem from="1568861695105" duration="1934000" />
+      <workItem from="1568861695105" duration="2224000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53479000" />
+    <option name="totallyTimeSpent" value="53769000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="53" y="25" width="1313" height="743" extended-state="6" />
+    <frame x="53" y="25" width="1313" height="743" extended-state="7" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49610388" visible="true" weight="0.25887924" />
       <window_info id="Structure" order="1" sideWeight="0.5038961" side_tool="true" weight="0.25098658" />
@@ -315,7 +319,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="11" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="12" visible="true" weight="0.28733766" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="12" visible="true" weight="0.2882736" />
       <window_info anchor="bottom" id="Python Console" order="13" weight="0.37662336" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -398,7 +402,7 @@
     <entry file="file://$PROJECT_DIR$/highchart_visual/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
-          <caret line="14" column="3" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+          <caret line="14" column="3" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
           <folding>
             <element signature="e#640#672#0" expanded="true" />
           </folding>
@@ -415,7 +419,7 @@
     <entry file="file://$PROJECT_DIR$/dashboard_view/templates/test.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="7" column="57" lean-forward="true" selection-start-line="7" selection-start-column="57" selection-end-line="7" selection-end-column="57" />
+          <caret line="7" column="57" selection-start-line="7" selection-start-column="57" selection-end-line="7" selection-end-column="57" />
           <folding>
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
@@ -425,7 +429,7 @@
     <entry file="file://$PROJECT_DIR$/dashboard_view/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>
@@ -438,7 +442,7 @@
     <entry file="file://$PROJECT_DIR$/dashboard_view/templates/home.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="261">
-          <caret line="42" column="26" lean-forward="true" selection-start-line="42" selection-start-column="26" selection-end-line="42" selection-end-column="26" />
+          <caret line="42" column="26" selection-start-line="42" selection-start-column="26" selection-end-line="42" selection-end-column="26" />
           <folding>
             <element signature="n#style#0;n#h1#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
