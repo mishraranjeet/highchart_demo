@@ -1,7 +1,7 @@
 from dashboard_view.models import *
 from django.db.models import Count, Q
 from django.shortcuts import render, HttpResponse
-
+import csv
 
 def home(request):
     return render(request,'home.html')
@@ -52,6 +52,8 @@ def dashboard_review(request):
     iphone6 = Iphone_Data.objects.filter(product_name__contains='Apple iPhone 6')
 
     review_iphonex = [list.reviews for list in iphonex]
+
+    print("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",review_iphonex)
     total_review_iphonex = sum(review_iphonex)
     average_review_iphonex = []
     avg_review_iphonex = total_review_iphonex
@@ -81,3 +83,15 @@ def dashboard_review(request):
     }
 
     return render(request, 'review.html', context)
+
+
+def save_data_from_csv(request):
+    with open('iphone_data.csv') as csvfile:
+        data_read = csv.DictReader(csvfile)
+        for row in data_read:
+            p = Iphone_Data(product_name=row['ProductName'], price=row['Price'], ratings=row['Ratings'],
+                            reviews=row['Reviews'])
+            print("!!!!!!!!!!!!!!!!",row)
+            p.save()
+
+    return HttpResponse("data saved")

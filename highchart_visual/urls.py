@@ -22,4 +22,5 @@ urlpatterns = [
     path('',home, name='home'),
     path('ratings/', dashboard,name='dashboard'),
     path('review/', dashboard_review,name='dashboard_review'),
+    # path('save/', save_data_from_csv,name='save'),
 ]
