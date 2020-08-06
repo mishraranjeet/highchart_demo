@@ -77,17 +77,24 @@ WSGI_APPLICATION = 'highchart_visual.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/2.2/ref/settings/#databases
 
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql_psycopg2',
+#         'NAME': 'iphonedata',
+#         'USER':  'highcharts',
+#         'PASSWORD': 'highcharts',
+#         'HOST': 'localhost',
+#         'PORT' : ''
+#     }
+# }
+
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'iphonedata',
-        'USER':  'highcharts',
-        'PASSWORD': 'highcharts',
-        'HOST': 'localhost',
-        'PORT' : ''
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': 'db.sqlite3'
+
     }
 }
-
 
 # Password validation
 # https://docs.djangoproject.com/en/2.2/ref/settings/#auth-password-validators
